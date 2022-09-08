@@ -8,9 +8,21 @@ align-items: center;
 
 `;
 
+export const FlexRow = styled.div`
+display: flex;
+justify-content:center;
+align-items: center;
+
+`;
+
 export const FormCard = styled.div`
 width: 30%;
 padding: 2rem;
+
+@media (max-width: 768px) {
+  width: 98%;
+  padding:2rem;
+}
 
 `;
 
